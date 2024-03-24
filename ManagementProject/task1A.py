@@ -1,6 +1,6 @@
 #Initialize two data structures to keep track of books and members both represented as lists.
-#books = []
-#members = []
+books = []
+members = []
 
 # The system features two functions (You must create these functions): add_book and add_member.
 # The add_book function takes three parameters (book_id, title, author, status) and appends a new book 
@@ -11,7 +11,7 @@ book_id of 2024001, and a member named Anelisa Maleka with a member_id of 1. How
 additions reflect in the books and members lists, and what would the output look like if you printed 
 both lists immediately after these additions?
 Hint: call the functions and write a print statement for them"""
-"""def add_book(book_id, title, author, status):
+def add_book(book_id, title, author, status):
    add_book.append({
        "book_id ": 2024001,
         "title ": "Python Programming ",
@@ -19,5 +19,4 @@ Hint: call the functions and write a print statement for them"""
         "status ": []
        
    })
-   print("Books records ", add_book)"""
-print("Hello world")
+   print("Books records ", add_book)
